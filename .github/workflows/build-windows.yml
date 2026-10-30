@@ -1,0 +1,41 @@
+name: Windows
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      QT_QPA_PLATFORM: offscreen:configfile=tests/qt-offscreen.json
+      HF_HUB_OFFLINE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          architecture: x64
+      - name: Dependencies
+        shell: pwsh
+        run: |
+          python -m venv .venv
+          .venv/Scripts/python.exe -m pip install -r requirements-lock.txt
+          .venv/Scripts/python.exe -m pip install -e . --no-deps
+      - name: Unit and GUI tests
+        shell: pwsh
+        run: .venv/Scripts/python.exe -m pytest -q
+      - name: Lint
+        shell: pwsh
+        run: .venv/Scripts/python.exe -m ruff check src tests scripts --select F
+      - name: Application version
+        shell: pwsh
+        run: |
+          $version = .venv/Scripts/python.exe -c "from dual_live_captions import __version__; print(__version__)"
+          Add-Content -LiteralPath $env:GITHUB_ENV -Value "DLC_VERSION=$version"
+      - name: Build
+        shell: pwsh
+        run: ./scripts/build.ps1 -SkipTests
+      - uses: actions/upload-artifact@v4
+        with:
+          name: DualLiveCaptions-${{ env.DLC_VERSION }}-win-x64
+          path: dist/${{ env.DLC_VERSION }}/DualLiveCaptions/
+          if-no-files-found: error

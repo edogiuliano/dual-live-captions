@@ -1,0 +1,130 @@
+[
+  {
+    "repository": "ufal/SimulStreaming",
+    "tags": [
+      {
+        "name": "nc",
+        "zipball_url": "https://api.github.com/repos/ufal/SimulStreaming/zipball/refs/tags/nc",
+        "tarball_url": "https://api.github.com/repos/ufal/SimulStreaming/tarball/refs/tags/nc",
+        "commit": {
+          "sha": "f76346a4bf0a31271267967da42fc41f2c476154",
+          "url": "https://api.github.com/repos/ufal/SimulStreaming/commits/f76346a4bf0a31271267967da42fc41f2c476154"
+        },
+        "node_id": "REF_kwDOOl8Y0qxyZWZzL3RhZ3MvbmM"
+      }
+    ]
+  },
+  {
+    "repository": "QuentinFuxa/WhisperLiveKit",
+    "tags": [
+      {
+        "name": "v0.2.26",
+        "zipball_url": "https://api.github.com/repos/QuentinFuxa/WhisperLiveKit/zipball/refs/tags/v0.2.26",
+        "tarball_url": "https://api.github.com/repos/QuentinFuxa/WhisperLiveKit/tarball/refs/tags/v0.2.26",
+        "commit": {
+          "sha": "aceed595a43e9eed5008c142d90a3f6e86747fbf",
+          "url": "https://api.github.com/repos/QuentinFuxa/WhisperLiveKit/commits/aceed595a43e9eed5008c142d90a3f6e86747fbf"
+        },
+        "node_id": "REF_kwDONfvYSrFyZWZzL3RhZ3MvdjAuMi4yNg"
+      }
+    ]
+  },
+  {
+    "repository": "coloeso/whisperlivekit",
+    "tags": []
+  },
+  {
+    "repository": "collabora/WhisperLive",
+    "tags": [
+      {
+        "name": "v0.10.0",
+        "zipball_url": "https://api.github.com/repos/collabora/WhisperLive/zipball/refs/tags/v0.10.0",
+        "tarball_url": "https://api.github.com/repos/collabora/WhisperLive/tarball/refs/tags/v0.10.0",
+        "commit": {
+          "sha": "000e97576ffb4b5edaf6f4b7e330ecedc455979e",
+          "url": "https://api.github.com/repos/collabora/WhisperLive/commits/000e97576ffb4b5edaf6f4b7e330ecedc455979e"
+        },
+        "node_id": "REF_kwDOJe3aObFyZWZzL3RhZ3MvdjAuMTAuMA"
+      }
+    ]
+  },
+  {
+    "repository": "SYSTRAN/faster-whisper",
+    "tags": [
+      {
+        "name": "v1.2.1",
+        "zipball_url": "https://api.github.com/repos/SYSTRAN/faster-whisper/zipball/refs/tags/v1.2.1",
+        "tarball_url": "https://api.github.com/repos/SYSTRAN/faster-whisper/tarball/refs/tags/v1.2.1",
+        "commit": {
+          "sha": "65882eee9f5cdbeeb2d877f1131d48cf241b327d",
+          "url": "https://api.github.com/repos/SYSTRAN/faster-whisper/commits/65882eee9f5cdbeeb2d877f1131d48cf241b327d"
+        },
+        "node_id": "REF_kwDOI8jj-bByZWZzL3RhZ3MvdjEuMi4x"
+      }
+    ]
+  },
+  {
+    "repository": "ufal/whisper_streaming",
+    "tags": []
+  },
+  {
+    "repository": "snakers4/silero-vad",
+    "tags": [
+      {
+        "name": "v6.2.3",
+        "zipball_url": "https://api.github.com/repos/snakers4/silero-vad/zipball/refs/tags/v6.2.3",
+        "tarball_url": "https://api.github.com/repos/snakers4/silero-vad/tarball/refs/tags/v6.2.3",
+        "commit": {
+          "sha": "5cd7945676eb32225748052e2e6a0580e4686a08",
+          "url": "https://api.github.com/repos/snakers4/silero-vad/commits/5cd7945676eb32225748052e2e6a0580e4686a08"
+        },
+        "node_id": "MDM6UmVmMzE1MjcwMTA4OnJlZnMvdGFncy92Ni4yLjM="
+      }
+    ]
+  },
+  {
+    "repository": "openai/whisper",
+    "tags": [
+      {
+        "name": "v20250625",
+        "zipball_url": "https://api.github.com/repos/openai/whisper/zipball/refs/tags/v20250625",
+        "tarball_url": "https://api.github.com/repos/openai/whisper/tarball/refs/tags/v20250625",
+        "commit": {
+          "sha": "31243bad24cc746f07d4c8bfdd2d974872cb1803",
+          "url": "https://api.github.com/repos/openai/whisper/commits/31243bad24cc746f07d4c8bfdd2d974872cb1803"
+        },
+        "node_id": "REF_kwDOIAstBbNyZWZzL3RhZ3MvdjIwMjUwNjI1"
+      }
+    ]
+  },
+  {
+    "repository": "modelscope/FunASR",
+    "tags": [
+      {
+        "name": "v1.4.16",
+        "zipball_url": "https://api.github.com/repos/modelscope/FunASR/zipball/refs/tags/v1.4.16",
+        "tarball_url": "https://api.github.com/repos/modelscope/FunASR/tarball/refs/tags/v1.4.16",
+        "commit": {
+          "sha": "904cd18681b8083de5e1039bd0ecebc4f49ede60",
+          "url": "https://api.github.com/repos/modelscope/FunASR/commits/904cd18681b8083de5e1039bd0ecebc4f49ede60"
+        },
+        "node_id": "REF_kwDOIfjis7FyZWZzL3RhZ3MvdjEuNC4xNg"
+      }
+    ]
+  },
+  {
+    "repository": "ggml-org/whisper.cpp",
+    "tags": [
+      {
+        "name": "v1.9.5",
+        "zipball_url": "https://api.github.com/repos/ggml-org/whisper.cpp/zipball/refs/tags/v1.9.5",
+        "tarball_url": "https://api.github.com/repos/ggml-org/whisper.cpp/tarball/refs/tags/v1.9.5",
+        "commit": {
+          "sha": "d1be6fde11ac6e0407606b4e42fe72d34add8037",
+          "url": "https://api.github.com/repos/ggml-org/whisper.cpp/commits/d1be6fde11ac6e0407606b4e42fe72d34add8037"
+        },
+        "node_id": "REF_kwDOIEMdirByZWZzL3RhZ3MvdjEuOS41"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "voice": "Microsoft Zira Desktop",
+    "id": "english",
+    "text": "Good morning, how can I help you? I would like to schedule an appointment for tomorrow. Let me check our availability.",
+    "language": "en"
+  },
+  {
+    "voice": "Microsoft Sabina Desktop",
+    "id": "spanish",
+    "text": "Hola, llamo porque necesito un turno médico. Perfecto, para qué especialidad necesita el turno. Mañana por la tarde está bien.",
+    "language": "es"
+  },
+  {
+    "voice": "Microsoft Zira Desktop",
+    "id": "short_en",
+    "text": "Sure, let me check.",
+    "language": "en"
+  },
+  {
+    "voice": "Microsoft Sabina Desktop",
+    "id": "short_es",
+    "text": "Muchas gracias por su ayuda.",
+    "language": "es"
+  },
+  {
+    "voice": "Microsoft Zira Desktop",
+    "id": "fast_en",
+    "text": "Good morning.",
+    "language": "en"
+  },
+  {
+    "voice": "Microsoft Sabina Desktop",
+    "id": "fast_es",
+    "text": "Buenos días.",
+    "language": "es"
+  }
+]

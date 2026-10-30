@@ -1,0 +1,27 @@
+# Python and tooling
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated builds, models, captures and local reports
+/build/
+/dist/
+/artifacts/
+/models/
+/gpu/
+*.spec
+*.lnk
+*.log
+*.zip
+
+# Machine-specific configuration and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

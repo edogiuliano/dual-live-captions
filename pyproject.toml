@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-live-captions"
+version = "0.0.1"
+description = "Local English/Spanish live captions for Windows"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.14"
+dependencies = ["faster-whisper==1.2.1", "PySide6-Essentials==6.8.3", "PyAudioWPatch==0.2.12.9", "soxr==1.1.0", "psutil==7.2.2", "lingua-language-detector==2.1.1", "pycaw==20260927"]
+
+[project.scripts]
+dual-live-captions = "dual_live_captions.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["integration: real ASR/audio; opt-in with DLC_INTEGRATION=1"]
+
+[project.urls]
+Repository = "https://github.com/edogiuliano/dual-live-captions"
+Issues = "https://github.com/edogiuliano/dual-live-captions/issues"

@@ -1,0 +1,36 @@
+[
+  {
+    "repository": "Qwen/Qwen3-ASR-0.6B",
+    "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+    "license": "apache-2.0",
+    "last_modified": "2026-01-30T03:00:21.000Z"
+  },
+  {
+    "repository": "nvidia/parakeet-tdt-0.6b-v3",
+    "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+    "license": "cc-by-4.0",
+    "last_modified": "2026-08-05T21:46:17.000Z"
+  },
+  {
+    "repository": "Systran/faster-whisper-small",
+    "revision": "536b0662742c02347bc0e980a01041f333bce120",
+    "license": "mit",
+    "last_modified": "2023-11-23T10:57:09.000Z"
+  },
+  {
+    "repository": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+    "revision": "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+    "license": "mit",
+    "last_modified": "2025-11-05T12:55:33.000Z"
+  },
+  {
+    "tested_model": "base",
+    "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+    "bytes": 145217532
+  },
+  {
+    "tested_model": "small",
+    "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+    "bytes": 483546902
+  }
+]

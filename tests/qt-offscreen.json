@@ -1,0 +1,7 @@
+{
+  "windowFrameMargins": false,
+  "screens": [
+    {"name": "CI Primary", "x": 0, "y": 0, "width": 1920, "height": 1080, "logicalDpi": 96, "logicalBaseDpi": 96, "dpr": 1},
+    {"name": "CI Secondary", "x": 1920, "y": 0, "width": 1920, "height": 1080, "logicalDpi": 96, "logicalBaseDpi": 96, "dpr": 1}
+  ]
+}
